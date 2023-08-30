@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+/***************************************************************  Navbar *************************************/
+body{
+    padding: 0;
+    margin: 0;
+    background-image:  url("../images/melange.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header h4{
+    color: #CB0D0D;
+}
+header h1{
+    color: #FFFFFF;
+    font-size: 70px;
+    font-family: Montserrat;
+}
+.navbar{
+    background-color: #490909;
+}
+.nav-item .nav-link{
+    color: white;
+    font-size: 20px;
+}
+.navbar-toggler{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+
+/*************************************************************** section1 *************************************/
+.section1 .case{
+    background-color: #F6E1C5;
+    width: 490px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    top: -300px;
+    left: 100px;
+}
+.section1 .tout .ima{
+    width: 730px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    left: 400px;
+}
+.tout .btn{
+    background-color: #7B261A;
+    color: white;
+    position: relative;
+    top: -310px;
+    left: 300px;
+    width: 150px;
+    height: 50px;
+}
+
+/*************************************************************** sectio2 *************************************/
+.section2 .ecri{
+    background-color: #F6E1C5;
+    width: 600px;
+    height: 250px;
+}
+.arc{
+    background-color: #A5342BB0;
+    height: 600px;
+}
+.arc .simple{
+    border: 1px solid #F6E1C5;
+}
+
+.footer{
+    background-color: #311919;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+    /* section1 */
+    .section1 .case{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 300px;
+        height: 300px;
+        margin: 0px 45px 0 45px;
+        
+    }
+    .section1 .tout .ima{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 300px;
+        height: 300px;
+        margin: 45px 45px 10px 45px;
+    }
+    .tout .btn{
+        position: relative;
+        top: -10px;
+        left: 120px;
+    }
+    header h4{
+        display: none;
+    }
+    header h1{
+        display: none;
+    }
+
+    /* section2 */
+    .section2 .ecri{
+        width: 300px;
+    }
+    .arc{
+        height: 450px;
+    }
+}
+

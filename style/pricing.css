@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/***************************************************************  Navbar *************************************/
+body{
+    padding: 0;
+    margin: 0;
+    background-image:  url("images/melange.jpg") center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header h4{
+    color: #CB0D0D;
+}
+header h1{
+    color: #FFFFFF;
+    font-size: 70px;
+    font-family: Montserrat;
+}
+.navbar{
+    background-color: #490909;
+}
+.nav-item .nav-link{
+    color: white;
+    font-size: 20px;
+}
+.navbar-toggler{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+
+
+
+.section1 .souvenir img{
+    width: 400px;
+    height: 300px;
+}
+.section1 .souvenir .haut{
+    background-color: #F6E1C5;
+    width: 200px;
+    height: 100px;
+}
+.section1 .souvenir .haut h4{
+    font-size: 10px;
+}
+.section1 .souvenir .haut p{
+    font-size: 15px;
+}
+.section1 .souvenir .bas{
+    background-color: #F6E1C5;
+    width: 400px;
+    height: 150px;
+
+}
